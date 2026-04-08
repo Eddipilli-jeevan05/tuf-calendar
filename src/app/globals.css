@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f6f8fb;
+  --color-surface: #ffffff;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
+  --color-accent: #2563eb;
+  --color-accent-soft: #dbeafe;
+  --color-border: #e2e8f0;
+  --color-hover: #f3f4f6;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+}
+
+.text-display {
+  font-size: clamp(1.5rem, 3.2vw, 1.875rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.text-heading {
+  font-size: clamp(1.125rem, 2.2vw, 1.25rem);
+  font-weight: 600;
+}
+
+.text-body {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.text-caption {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.text-micro {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.surface-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  box-shadow: none;
+}
