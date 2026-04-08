@@ -7,6 +7,7 @@ A polished, interactive calendar component designed with a focus on **clean UI, 
 ## 🚀 Live Demo
 
 * Live Link: https://tuf-calendar-gray.vercel.app/
+* Video Demo Link: https://www.loom.com/share/d26e5bf225434917af0744a2ec0c8f20
 
 ---
 
