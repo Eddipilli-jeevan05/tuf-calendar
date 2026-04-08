@@ -24,7 +24,7 @@ A polished, interactive calendar component designed with a focus on **clean UI, 
 
 ## 🛠 Tech Stack
 
-* React / Next.js
+* Next.js
 * TypeScript
 * Tailwind CSS
 * Framer Motion
